@@ -147,7 +147,7 @@ function Contact(props) {
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 function Home(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Jeremy Casanova"), /*#__PURE__*/React.createElement("p", null, "I am a passionate and innovative software engineer with a relentless commitment to crafting elegant and efficient solutions. ", /*#__PURE__*/React.createElement("br", null), " I specialize in translating complex ideas into robust, user-friendly applications through a blend of creativity and technical expertise.", /*#__PURE__*/React.createElement("br", null), " With a keen eye for detail and a dedication to continuous learning, I thrive on staying at the forefront of technology trends to deliver cutting-edge solutions that not only meet but exceed client expectations.", /*#__PURE__*/React.createElement("br", null), " My goal is to leave a lasting impact by contributing to the evolution of software development and pushing the boundaries of what is possible in the digital realm."), /*#__PURE__*/React.createElement("img", {
-    src: "[URL to Your Picture]",
+    src: "/img/main_pic.png",
     alt: "Your Picture"
   }));
 }
@@ -576,4 +576,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.229674519f130e5a5d4c5a284ee63110.js.map
+//# sourceMappingURL=App.eab26bcab5a62b5e44d1dce46edb9030.js.map
