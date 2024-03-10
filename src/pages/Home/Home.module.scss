@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://www.abcomllc.com/wp-content/uploads/shutterstock_low-res.jpg);
+    background-size: fill;
+    font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;
+    text-align: center;
+    background-color:rgba(50, 189, 40, 0.87);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .content {
+    display: flex; /* Display content as flex container */
+    flex-direction: row; /* Arrange children in a row */
+    align-items: center; /* Vertically center children */
+    justify-content: center; /* Horizontally center children */
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    margin-top: -59%;
+    margin-left: -118%; /* Add spacing between image and text */
+    width: 600px;
+    height: auto;
+    margin-right: 20px; /* Add spacing between image and text */
+    border-radius: 12%;
+  }
+  
+  p {
+    color: rgb(255, 255, 255);
+    margin-top: 30%;
+    margin-left: 30%; /* Add spacing between image and text */
+    width: 500px;
+    height: auto;
+    margin-right: 20px; /* Add spacing between image and text */
+  }
+  

@@ -144,11 +144,20 @@ function Contact(props) {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Home)
 /* harmony export */ });
+/* harmony import */ var _Home_module_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.module.scss */ "./src/pages/Home/Home.module.scss");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
 function Home(props) {
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Jeremy Casanova"), /*#__PURE__*/React.createElement("p", null, "I am a passionate and innovative software engineer with a relentless commitment to crafting elegant and efficient solutions. ", /*#__PURE__*/React.createElement("br", null), " I specialize in translating complex ideas into robust, user-friendly applications through a blend of creativity and technical expertise.", /*#__PURE__*/React.createElement("br", null), " With a keen eye for detail and a dedication to continuous learning, I thrive on staying at the forefront of technology trends to deliver cutting-edge solutions that not only meet but exceed client expectations.", /*#__PURE__*/React.createElement("br", null), " My goal is to leave a lasting impact by contributing to the evolution of software development and pushing the boundaries of what is possible in the digital realm."), /*#__PURE__*/React.createElement("img", {
+  return /*#__PURE__*/React.createElement("div", {
+    className: _Home_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].container
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: _Home_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].title
+  }, "Jeremy Casanova"), /*#__PURE__*/React.createElement("p", {
+    className: _Home_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].description
+  }, "I am a passionate and innovative software engineer with a relentless commitment to crafting elegant and efficient solutions. ", /*#__PURE__*/React.createElement("br", null), " I specialize in translating complex ideas into robust, user-friendly applications through a blend of creativity and technical expertise.", /*#__PURE__*/React.createElement("br", null), " With a keen eye for detail and a dedication to continuous learning, I thrive on staying at the forefront of technology trends to deliver cutting-edge solutions that not only meet but exceed client expectations.", /*#__PURE__*/React.createElement("br", null), " My goal is to leave a lasting impact by contributing to the evolution of software development and pushing the boundaries of what is possible in the digital realm."), /*#__PURE__*/React.createElement("img", {
     src: "/img/main_pic.png",
-    alt: "Your Picture"
+    alt: "Your Picture",
+    className: _Home_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].image
   }));
 }
 
@@ -217,17 +226,26 @@ ___CSS_LOADER_EXPORT___.locals = {};
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `.jNadFe4u19lDdoI3ovzt {
+___CSS_LOADER_EXPORT___.push([module.id, `.XG4yfuIRP6FFXNkuK4uS {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jNadFe4u19lDdoI3ovzt {
+  width: 45.4%;
+  margin-left: 27.3%;
+  border-radius: 20px 20px 0 0;
   font-size: 24px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  background-color: rgba(161, 161, 161, 0.3647058824);
+  background-color: rgba(0, 0, 0, 0.5568627451);
   transition: background-color 0.3s ease;
 }
 .jNadFe4u19lDdoI3ovzt:hover {
-  background-color: rgba(128, 127, 127, 0.4588235294);
+  background-color: rgba(44, 77, 41, 0.6117647059);
 }
 
 .jNadFe4u19lDdoI3ovzt a {
@@ -245,13 +263,102 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.jNadFe4u19lDdoI3ovzt {
     color: #ffffff;
   }
   to {
-    color: #757575;
+    color: #000000;
   }
-}`, "",{"version":3,"sources":["webpack://./src/components/Nav/Nav.module.scss"],"names":[],"mappings":"AAAA;EACE,eAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,YAAA;EACA,mDAAA;EACA,sCAAA;AACF;AAAE;EACE,mDAAA;AAEJ;;AAEA;EACE,qBAAA;EACA,cAAA;EACA,iBAAA;EACA,2BAAA;AACF;AACE;EACE,6CAAA;AACJ;;AAGA;EACE;IACE,cAAA;EAAF;EAEA;IACE,cAAA;EAAF;AACF","sourcesContent":[".nav {\n  font-size: 24px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  height: 50px;\n  background-color: #a1a1a15d;\n  transition: background-color 0.3s ease;\n  &:hover {\n    background-color: #807f7f75;\n  }\n}\n\n.nav a {\n  text-decoration: none;\n  color: #ffffff;\n  font-weight: bold;\n  transition: color 0.3s ease;\n\n  &:hover {\n    animation: linkHover 0.5s forwards;\n  }\n}\n\n@keyframes linkHover {\n  from {\n    color: #ffffff;\n  }\n  to {\n    color: #757575;\n  }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/components/Nav/Nav.module.scss"],"names":[],"mappings":"AAAA;EACE,oCAAA;EACA,gBAAA;EACA,kBAAA;AACF;;AAGA;EACE,YAAA;EACA,kBAAA;EACA,4BAAA;EACA,eAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,YAAA;EACA,6CAAA;EACA,sCAAA;AAAF;AACE;EACE,gDAAA;AACJ;;AAGA;EACE,qBAAA;EACA,cAAA;EACA,iBAAA;EACA,2BAAA;AAAF;AAEE;EACE,6CAAA;AAAJ;;AAIA;EACE;IACE,cAAA;EADF;EAGA;IACE,cAAA;EADF;AACF","sourcesContent":[".russo-one-regular {\n  font-family: \"Russo One\", sans-serif;\n  font-weight: 400;\n  font-style: normal;\n}\n\n\n.nav {\n  width: 45.4%;\n  margin-left: 27.3%;\n  border-radius: 20px 20px 0 0;\n  font-size: 24px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  height: 50px;\n  background-color: #0000008e;\n  transition: background-color 0.3s ease;\n  &:hover {\n    background-color: #2c4d299c;\n  }\n}\n\n.nav a {\n  text-decoration: none;\n  color: #ffffff;\n  font-weight: bold;\n  transition: color 0.3s ease;\n\n  &:hover {\n    animation: linkHover 0.5s forwards;\n  }\n}\n\n@keyframes linkHover {\n  from {\n    color: #ffffff;\n  }\n  to {\n    color: #000000;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
+	"russo-one-regular": `XG4yfuIRP6FFXNkuK4uS`,
 	"nav": `jNadFe4u19lDdoI3ovzt`,
 	"linkHover": `SM7C8qEJwy7QmdhrZnI8`
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Home/Home.module.scss":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Home/Home.module.scss ***!
+  \********************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `body {
+  background-image: url(https://www.abcomllc.com/wp-content/uploads/shutterstock_low-res.jpg);
+  background-size: fill;
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.VoR2UQJ5mE6rX9UsFTqM {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center;
+  text-align: center;
+  background-color: rgba(50, 189, 40, 0.87);
+  border-radius: 0 0 20px 20px;
+}
+
+.celPFavHWG7w6UM13Ep3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.f0HsiVzo4UqTspXSWc7w {
+  display: flex; /* Display content as flex container */
+  flex-direction: row; /* Arrange children in a row */
+  align-items: center; /* Vertically center children */
+  justify-content: center; /* Horizontally center children */
+}
+
+.m8hL_Be5s_JbHdXKJcxo {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.zobGozcju9MZr39aA9yc {
+  margin-top: -59%;
+  margin-left: -118%; /* Add spacing between image and text */
+  width: 600px;
+  height: auto;
+  margin-right: 20px; /* Add spacing between image and text */
+  border-radius: 12%;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  margin-top: 30%;
+  margin-left: 30%; /* Add spacing between image and text */
+  width: 500px;
+  height: auto;
+  margin-right: 20px; /* Add spacing between image and text */
+}`, "",{"version":3,"sources":["webpack://./src/pages/Home/Home.module.scss"],"names":[],"mappings":"AAAA;EACI,2FAAA;EACA,qBAAA;EACA,oCAAA;EACF,gBAAA;EACA,kBAAA;AACF;;AAEA;EACI,gBAAA;EACA,cAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA,EAAA,iCAAA;EACA,mBAAA;EACA,kBAAA;EACA,yCAAA;EACA,4BAAA;AACJ;;AAEE;EACE,eAAA;EACA,iBAAA;EACA,mBAAA;EACA,yBAAA;AACJ;;AAEE;EACE,aAAA,EAAA,sCAAA;EACA,mBAAA,EAAA,8BAAA;EACA,mBAAA,EAAA,+BAAA;EACA,uBAAA,EAAA,iCAAA;AACJ;;AAEE;EACE,eAAA;EACA,gBAAA;EACA,mBAAA;AACJ;;AAEE;EACE,gBAAA;EACA,kBAAA,EAAA,uCAAA;EACA,YAAA;EACA,YAAA;EACA,kBAAA,EAAA,uCAAA;EACA,kBAAA;AACJ;;AAEE;EACE,yBAAA;EACA,eAAA;EACA,gBAAA,EAAA,uCAAA;EACA,YAAA;EACA,YAAA;EACA,kBAAA,EAAA,uCAAA;AACJ","sourcesContent":["body{\n    background-image: url(https://www.abcomllc.com/wp-content/uploads/shutterstock_low-res.jpg);\n    background-size: fill;\n    font-family: \"Russo One\", sans-serif;\n  font-weight: 500;\n  font-style: normal;\n  }\n\n.container {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n    display: flex;\n    flex-direction: column; /* Arrange children in a column */\n    align-items: center;\n    text-align: center;\n    background-color:rgba(50, 189, 40, 0.87);\n    border-radius: 0 0 20px 20px;\n  }\n  \n  .title {\n    font-size: 48px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    color: rgb(255, 255, 255);\n  }\n  \n  .content {\n    display: flex; /* Display content as flex container */\n    flex-direction: row; /* Arrange children in a row */\n    align-items: center; /* Vertically center children */\n    justify-content: center; /* Horizontally center children */\n  }\n  \n  .description {\n    font-size: 18px;\n    line-height: 1.5;\n    margin-bottom: 20px;\n  }\n  \n  .image {\n    margin-top: -59%;\n    margin-left: -118%; /* Add spacing between image and text */\n    width: 600px;\n    height: auto;\n    margin-right: 20px; /* Add spacing between image and text */\n    border-radius: 12%;\n  }\n  \n  p {\n    color: rgb(255, 255, 255);\n    margin-top: 30%;\n    margin-left: 30%; /* Add spacing between image and text */\n    width: 500px;\n    height: auto;\n    margin-right: 20px; /* Add spacing between image and text */\n  }\n  "],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"container": `VoR2UQJ5mE6rX9UsFTqM`,
+	"title": `celPFavHWG7w6UM13Ep3`,
+	"content": `f0HsiVzo4UqTspXSWc7w`,
+	"description": `m8hL_Be5s_JbHdXKJcxo`,
+	"image": `zobGozcju9MZr39aA9yc`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -360,6 +467,59 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Nav_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Nav_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Nav_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./src/pages/Home/Home.module.scss":
+/*!*****************************************!*\
+  !*** ./src/pages/Home/Home.module.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Home_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!../../../node_modules/sass-loader/dist/cjs.js!../../../node_modules/postcss-loader/dist/cjs.js!./Home.module.scss */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/pages/Home/Home.module.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Home_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Home_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Home_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_Home_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ })
@@ -576,4 +736,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.eab26bcab5a62b5e44d1dce46edb9030.js.map
+//# sourceMappingURL=App.51e80cb6cd230d43076ea90f8203b130.js.map

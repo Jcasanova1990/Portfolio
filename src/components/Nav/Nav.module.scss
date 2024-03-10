@@ -1,13 +1,23 @@
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .nav {
+  width: 45.4%;
+  margin-left: 27.3%;
+  border-radius: 20px 20px 0 0;
   font-size: 24px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  background-color: #a1a1a15d;
+  background-color: #0000008e;
   transition: background-color 0.3s ease;
   &:hover {
-    background-color: #807f7f75;
+    background-color: #2c4d299c;
   }
 }
 
@@ -27,6 +37,6 @@
     color: #ffffff;
   }
   to {
-    color: #757575;
+    color: #000000;
   }
 }
