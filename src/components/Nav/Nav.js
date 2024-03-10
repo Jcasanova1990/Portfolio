@@ -8,11 +8,14 @@ const Nav = (props) => {
       <Link to="/">
         <div>Home</div>
       </Link>
-      <Link to="/about">
-        <div>About</div>
+      <Link to="/Projects">
+        <div>Projects</div>
       </Link>
-      <Link to="/stocks">
-        <div>Dashboard</div>
+      <Link to="/AboutMe">
+        <div>AboutMe</div>
+      </Link>
+      <Link to="/Contact">
+        <div>Contact</div>
       </Link>
     </div>
   );

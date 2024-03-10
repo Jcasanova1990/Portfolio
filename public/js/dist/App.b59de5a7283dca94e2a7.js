@@ -12,10 +12,10 @@
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
-/* harmony import */ var _pages_About_About__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/About/About */ "./src/pages/About/About.js");
-/* harmony import */ var _pages_Dashboard_Dashboard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/Dashboard/Dashboard */ "./src/pages/Dashboard/Dashboard.js");
+/* harmony import */ var _pages_AboutMe_AboutMe__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/AboutMe/AboutMe */ "./src/pages/AboutMe/AboutMe.js");
+/* harmony import */ var _pages_Projects_Projects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/Projects/Projects */ "./src/pages/Projects/Projects.js");
 /* harmony import */ var _pages_Home_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/Home/Home */ "./src/pages/Home/Home.js");
-/* harmony import */ var _pages_Stock_Stock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Stock/Stock */ "./src/pages/Stock/Stock.js");
+/* harmony import */ var _pages_Contact_Contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Contact/Contact */ "./src/pages/Contact/Contact.js");
 /* harmony import */ var _App_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App.module.scss */ "./src/App.module.scss");
 /* harmony import */ var _components_Nav_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Nav/Nav */ "./src/components/Nav/Nav.js");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -27,21 +27,20 @@
 
 
 function App() {
-  // We will use the Route component to specify each route
   return /*#__PURE__*/React.createElement("div", {
-    className: "App"
+    className: _App_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].App
   }, /*#__PURE__*/React.createElement(_components_Nav_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Routes, null, /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
     path: "/",
     element: /*#__PURE__*/React.createElement(_pages_Home_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null)
   }), /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-    path: "/stocks",
-    element: /*#__PURE__*/React.createElement(_pages_Dashboard_Dashboard__WEBPACK_IMPORTED_MODULE_1__["default"], null)
+    path: "/AboutMe",
+    element: /*#__PURE__*/React.createElement(_pages_AboutMe_AboutMe__WEBPACK_IMPORTED_MODULE_0__["default"], null)
   }), /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-    path: "/about",
-    element: /*#__PURE__*/React.createElement(_pages_About_About__WEBPACK_IMPORTED_MODULE_0__["default"], null)
+    path: "/Projects",
+    element: /*#__PURE__*/React.createElement(_pages_Projects_Projects__WEBPACK_IMPORTED_MODULE_1__["default"], null)
   }), /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
-    path: "/stock/:symbol",
-    element: /*#__PURE__*/React.createElement(_pages_Stock_Stock__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+    path: "/Contact",
+    element: /*#__PURE__*/React.createElement(_pages_Contact_Contact__WEBPACK_IMPORTED_MODULE_3__["default"], null)
   })));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
@@ -70,10 +69,12 @@ const Nav = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/about"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/stocks"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Dashboard")));
+    to: "/Projects"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "/AboutMe"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "AboutMe")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "/Contact"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Contact")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);
 
@@ -100,63 +101,35 @@ root.render( /*#__PURE__*/React.createElement(react__WEBPACK_IMPORTED_MODULE_0__
 
 /***/ }),
 
-/***/ "./src/pages/About/About.js":
-/*!**********************************!*\
-  !*** ./src/pages/About/About.js ***!
-  \**********************************/
+/***/ "./src/pages/AboutMe/AboutMe.js":
+/*!**************************************!*\
+  !*** ./src/pages/AboutMe/AboutMe.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ About)
+/* harmony export */   "default": () => (/* binding */ AboutMe)
 /* harmony export */ });
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-function About(props) {
-  return /*#__PURE__*/React.createElement("h1", null, "This is the About Component");
+function AboutMe(props) {
+  return /*#__PURE__*/React.createElement("h1", null, "This is the AboutMe Component");
 }
 ;
 
 /***/ }),
 
-/***/ "./src/pages/Dashboard/Dashboard.js":
-/*!******************************************!*\
-  !*** ./src/pages/Dashboard/Dashboard.js ***!
-  \******************************************/
+/***/ "./src/pages/Contact/Contact.js":
+/*!**************************************!*\
+  !*** ./src/pages/Contact/Contact.js ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Currencies)
+/* harmony export */   "default": () => (/* binding */ Contact)
 /* harmony export */ });
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-
-function Currencies(props) {
-  const [stocks, setStocks] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
-  const getStocks = async () => {
-    try {
-      const response = await fetch('/api/stocks');
-      const stockData = await response.json();
-      setStocks(stockData);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    getStocks();
-  }, []);
-  return /*#__PURE__*/React.createElement("div", {
-    className: "currencies"
-  }, stocks.map(coin => {
-    const {
-      name,
-      symbol
-    } = coin;
-    return /*#__PURE__*/React.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-      to: "/stock/".concat(symbol)
-    }, /*#__PURE__*/React.createElement("h2", null, name));
-  }));
+function Contact(props) {
+  return /*#__PURE__*/React.createElement("h1", null, "This is the Contact Component");
 }
 ;
 
@@ -173,64 +146,26 @@ function Currencies(props) {
 /* harmony export */ });
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 function Home(props) {
-  return /*#__PURE__*/React.createElement("h1", null, "This is the Home Component");
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "Jeremy Casanova"), /*#__PURE__*/React.createElement("p", null, "I am a passionate and innovative software engineer with a relentless commitment to crafting elegant and efficient solutions. ", /*#__PURE__*/React.createElement("br", null), " I specialize in translating complex ideas into robust, user-friendly applications through a blend of creativity and technical expertise.", /*#__PURE__*/React.createElement("br", null), " With a keen eye for detail and a dedication to continuous learning, I thrive on staying at the forefront of technology trends to deliver cutting-edge solutions that not only meet but exceed client expectations.", /*#__PURE__*/React.createElement("br", null), " My goal is to leave a lasting impact by contributing to the evolution of software development and pushing the boundaries of what is possible in the digital realm."), /*#__PURE__*/React.createElement("img", {
+    src: "[URL to Your Picture]",
+    alt: "Your Picture"
+  }));
 }
-;
 
 /***/ }),
 
-/***/ "./src/pages/Stock/Stock.js":
-/*!**********************************!*\
-  !*** ./src/pages/Stock/Stock.js ***!
-  \**********************************/
+/***/ "./src/pages/Projects/Projects.js":
+/*!****************************************!*\
+  !*** ./src/pages/Projects/Projects.js ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Price)
+/* harmony export */   "default": () => (/* binding */ Projects)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/dist/index.js");
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-
-function Price(props) {
-  // Grabbing the Stock symbol from the URL Params
-  const params = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_1__.useParams)();
-  const symbol = params.symbol;
-  // Using the other two variables to create our URL
-  //state to hold the coin data
-  const [stock, setStock] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null);
-
-  //function to fetch coin data
-  const getCoin = async () => {
-    try {
-      const response = await fetch("/api/stocks/".concat(symbol));
-      const data = await response.json();
-      setStock(data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  // useEffect to run getCoin when component mounts
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    console.log('hello');
-    getCoin();
-  }, []);
-
-  // loaded function for when data is fetched
-  const loaded = () => {
-    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, stock.name, "/USD"), /*#__PURE__*/React.createElement("h2", null, stock.lastPrice), /*#__PURE__*/React.createElement("h3", null, "Put more data here if you want"));
-  };
-
-  // Function for when data doesn't exist
-  const loading = () => {
-    return /*#__PURE__*/React.createElement("h1", null, "Loading...");
-  };
-
-  // if coin has data, run the loaded function, otherwise, run loading
-  return stock ? loaded() : loading();
+function Projects(props) {
+  return /*#__PURE__*/React.createElement("h1", null, "This is the Projects Component");
 }
 ;
 
@@ -283,20 +218,40 @@ ___CSS_LOADER_EXPORT___.locals = {};
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.jNadFe4u19lDdoI3ovzt {
+  font-size: 24px;
   display: flex;
-  justify-content: space-between;
-  background-color: purple;
-  color: white;
-  padding: 15px;
-  font-size: 2em;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(161, 161, 161, 0.3647058824);
+  transition: background-color 0.3s ease;
 }
+.jNadFe4u19lDdoI3ovzt:hover {
+  background-color: rgba(128, 127, 127, 0.4588235294);
+}
+
 .jNadFe4u19lDdoI3ovzt a {
-  color: white;
   text-decoration: none;
-}`, "",{"version":3,"sources":["webpack://./src/components/Nav/Nav.module.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,8BAAA;EACA,wBAAA;EACA,YAAA;EACA,aAAA;EACA,cAAA;AACJ;AAAI;EACE,YAAA;EACA,qBAAA;AAEN","sourcesContent":[".nav {\n    display: flex;\n    justify-content: space-between;\n    background-color: purple;\n    color: white;\n    padding: 15px;\n    font-size: 2em;\n    a {\n      color: white;\n      text-decoration: none;\n    }\n  }"],"sourceRoot":""}]);
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.jNadFe4u19lDdoI3ovzt a:hover {
+  animation: SM7C8qEJwy7QmdhrZnI8 0.5s forwards;
+}
+
+@keyframes SM7C8qEJwy7QmdhrZnI8 {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #757575;
+  }
+}`, "",{"version":3,"sources":["webpack://./src/components/Nav/Nav.module.scss"],"names":[],"mappings":"AAAA;EACE,eAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,YAAA;EACA,mDAAA;EACA,sCAAA;AACF;AAAE;EACE,mDAAA;AAEJ;;AAEA;EACE,qBAAA;EACA,cAAA;EACA,iBAAA;EACA,2BAAA;AACF;AACE;EACE,6CAAA;AACJ;;AAGA;EACE;IACE,cAAA;EAAF;EAEA;IACE,cAAA;EAAF;AACF","sourcesContent":[".nav {\n  font-size: 24px;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  height: 50px;\n  background-color: #a1a1a15d;\n  transition: background-color 0.3s ease;\n  &:hover {\n    background-color: #807f7f75;\n  }\n}\n\n.nav a {\n  text-decoration: none;\n  color: #ffffff;\n  font-weight: bold;\n  transition: color 0.3s ease;\n\n  &:hover {\n    animation: linkHover 0.5s forwards;\n  }\n}\n\n@keyframes linkHover {\n  from {\n    color: #ffffff;\n  }\n  to {\n    color: #757575;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
-	"nav": `jNadFe4u19lDdoI3ovzt`
+	"nav": `jNadFe4u19lDdoI3ovzt`,
+	"linkHover": `SM7C8qEJwy7QmdhrZnI8`
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -307,8 +262,11 @@ ___CSS_LOADER_EXPORT___.locals = {
 /*!*****************************!*\
   !*** ./src/App.module.scss ***!
   \*****************************/
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
@@ -348,7 +306,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 
-       /* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_App_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_App_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_App_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_App_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_App_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_2_use_1_node_modules_sass_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_App_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -618,4 +576,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.003cee2513b77d96e3c61bc3bd81d5ca.js.map
+//# sourceMappingURL=App.229674519f130e5a5d4c5a284ee63110.js.map

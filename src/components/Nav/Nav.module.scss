@@ -1,12 +1,32 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: purple;
-    color: white;
-    padding: 15px;
-    font-size: 2em;
-    a {
-      color: white;
-      text-decoration: none;
-    }
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #a1a1a15d;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #807f7f75;
   }
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+
+  &:hover {
+    animation: linkHover 0.5s forwards;
+  }
+}
+
+@keyframes linkHover {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #757575;
+  }
+}
