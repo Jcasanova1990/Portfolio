@@ -1,0 +1,61 @@
+body{
+    background-size: fill;
+    font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+.container {
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;
+    text-align: center;
+    background-color:rgba(50, 189, 40, 0.87);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Header styles */
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center; /* Center text */
+  }
+  
+  /* Buttons container styles */
+  .buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #000000ab;
+    }
+  }
+  

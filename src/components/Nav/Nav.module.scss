@@ -1,24 +1,21 @@
-.russo-one-regular {
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 
 .nav {
-  width: 45.4%;
-  margin-left: 27.3%;
-  border-radius: 20px 20px 0 0;
-  font-size: 24px;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  font-size: 2vw; 
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  height: 5vh;
   background-color: #0000008e;
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: #2c4d299c;
-  }
+}
+
+.nav:hover {
+  background-color: #2c4d299c;
 }
 
 .nav a {
@@ -26,10 +23,10 @@
   color: #ffffff;
   font-weight: bold;
   transition: color 0.3s ease;
+}
 
-  &:hover {
-    animation: linkHover 0.5s forwards;
-  }
+.nav a:hover {
+  animation: linkHover 0.5s forwards;
 }
 
 @keyframes linkHover {
@@ -38,5 +35,12 @@
   }
   to {
     color: #000000;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav {
+    font-size: 4vw;
   }
 }
