@@ -216,23 +216,23 @@ function Projects(props) {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].header
   }, "Bookmarks"), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].header2
-  }, "MERN App"), /*#__PURE__*/React.createElement("div", {
+  }, "URL Storage App"), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].buttonsContainer
   }, /*#__PURE__*/React.createElement("a", {
-    href: "live-link-for-mern-app",
+    href: "https://bookmarks.jeremycasanova.me/",
     target: "_blank",
     rel: "noopener noreferrer",
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].button
   }, "Live Link"), /*#__PURE__*/React.createElement("a", {
-    href: "git-repo-link-for-mern-app",
+    href: "https://github.com/Jcasanova1990/Bookmarks",
     target: "_blank",
     rel: "noopener noreferrer",
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].button
   }, "Git Repo")), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].header
-  }, "Mac N' Midnight"), /*#__PURE__*/React.createElement("div", {
+  }, "Loving Paws Adoption Agency"), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].header2
-  }, "Browser Game"), /*#__PURE__*/React.createElement("div", {
+  }, "Shelter Website"), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].buttonsContainer
   }, /*#__PURE__*/React.createElement("a", {
     href: "live-link-for-browser-game",
@@ -240,7 +240,7 @@ function Projects(props) {
     rel: "noopener noreferrer",
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].button
   }, "Live Link"), /*#__PURE__*/React.createElement("a", {
-    href: "git-repo-link-for-browser-game",
+    href: "https://github.com/Jcasanova1990/Loving-Paws-Adoption-Agency",
     target: "_blank",
     rel: "noopener noreferrer",
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].button
@@ -949,4 +949,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.517967b1c48e38a675bf13c9b6be68c8.js.map
+//# sourceMappingURL=App.a66a6f79b2aa7cadf06d7c6a273999b4.js.map

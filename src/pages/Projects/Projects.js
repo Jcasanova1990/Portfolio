@@ -17,16 +17,16 @@ export default function Projects(props) {
         <a href="https://github.com/Jcasanova1990/PartLyfe" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
       <div className={styles.header}>Bookmarks</div>
-      <div className={styles.header2}>MERN App</div>
+      <div className={styles.header2}>URL Storage App</div>
       <div className={styles.buttonsContainer}>
-        <a href="live-link-for-mern-app" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
-        <a href="git-repo-link-for-mern-app" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
+        <a href="https://bookmarks.jeremycasanova.me/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
+        <a href="https://github.com/Jcasanova1990/Bookmarks" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
-      <div className={styles.header}>Mac N' Midnight</div>
-      <div className={styles.header2}>Browser Game</div>
+      <div className={styles.header}>Loving Paws Adoption Agency</div>
+      <div className={styles.header2}>Shelter Website</div>
       <div className={styles.buttonsContainer}>
         <a href="live-link-for-browser-game" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
-        <a href="git-repo-link-for-browser-game" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
+        <a href="https://github.com/Jcasanova1990/Loving-Paws-Adoption-Agency" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
     </div>
   );
