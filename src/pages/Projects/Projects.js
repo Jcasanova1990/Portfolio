@@ -8,7 +8,7 @@ export default function Projects(props) {
       <div className={styles.header2}>Social Media App</div>
       <div className={styles.buttonsContainer}>
         <a href="live-link-for-social-media-app" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
-        <a href="git-repo-link-for-social-media-app" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
+        <a href="https://github.com/dwheeler7/goose" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
       <div className={styles.header}>PartLyfe</div>
       <div className={styles.header2}>Ecommerce App</div>
@@ -25,7 +25,7 @@ export default function Projects(props) {
       <div className={styles.header}>Loving Paws Adoption Agency</div>
       <div className={styles.header2}>Shelter Website</div>
       <div className={styles.buttonsContainer}>
-        <a href="live-link-for-browser-game" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
+        <a href="https://lovingpawsadoptionagency.jeremycasanova.me/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
         <a href="https://github.com/Jcasanova1990/Loving-Paws-Adoption-Agency" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
     </div>

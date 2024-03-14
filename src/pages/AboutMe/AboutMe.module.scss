@@ -1,0 +1,40 @@
+
+body{
+    text-align: center;
+    padding: 20px;
+    
+    .about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;
+    text-align: center;
+    background-color:rgba(50, 189, 40, 0.87);
+    border-radius: 0 0 20px 20px;}
+
+    h1 {color: #ffffff;
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+  
+    a {
+      color: #000000;
+      font-size: 22px;
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #ffffff;
+      }
+
+      img {
+        margin-right: 10px; 
+        width: 24px; 
+        height: 24px;
+    }
+  }
+}

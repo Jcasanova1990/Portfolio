@@ -1,0 +1,28 @@
+// Contact.scss
+
+.contact-container {
+    height: 25vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center;
+    text-align: center;
+    background-color: rgba(50, 189, 40, 0.87);
+    border-radius: 0 0 20px 20px;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
