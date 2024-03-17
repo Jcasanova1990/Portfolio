@@ -16,7 +16,7 @@ export default function Projects(props) {
         <a href="https://partlyfe.jeremycasanova.me/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
         <a href="https://github.com/Jcasanova1990/PartLyfe" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
-      <div className={styles.header}>Bookmarks</div>
+      <div className={styles.header}>Bookmarkz</div>
       <div className={styles.header2}>URL Storage App</div>
       <div className={styles.buttonsContainer}>
         <a href="https://bookmarkz.jeremycasanova.me/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
