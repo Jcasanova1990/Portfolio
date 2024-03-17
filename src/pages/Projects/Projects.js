@@ -19,8 +19,8 @@ export default function Projects(props) {
       <div className={styles.header}>Bookmarks</div>
       <div className={styles.header2}>URL Storage App</div>
       <div className={styles.buttonsContainer}>
-        <a href="https://bookmarks.jeremycasanova.me/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
-        <a href="https://github.com/Jcasanova1990/Bookmarks" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
+        <a href="https://bookmarkz.jeremycasanova.me/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
+        <a href="https://github.com/Jcasanova1990/Bookmarkz" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
       <div className={styles.header}>Loving Paws Adoption Agency</div>
       <div className={styles.header2}>Shelter Website</div>
