@@ -233,7 +233,7 @@ function Projects(props) {
   }, "Social Media App"), /*#__PURE__*/React.createElement("div", {
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].buttonsContainer
   }, /*#__PURE__*/React.createElement("a", {
-    href: "live-link-for-social-media-app",
+    href: "https://goose.danwheeler.me/auth",
     target: "_blank",
     rel: "noopener noreferrer",
     className: _Projects_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].button
@@ -1222,4 +1222,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.3aa800ea591e74c6352f2692a4455e66.js.map
+//# sourceMappingURL=App.37cc444b57afb52c6559586b9b4f3303.js.map
