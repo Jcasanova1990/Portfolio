@@ -7,7 +7,7 @@ export default function Projects(props) {
       <div className={styles.header}>Team Project</div>
       <div className={styles.header2}>Social Media App</div>
       <div className={styles.buttonsContainer}>
-        <a href="https://goose.danwheeler.me/auth" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
+        <a href="https://goose.danwheeler.me/auth/" target="_blank" rel="noopener noreferrer" className={styles.button}>Live Link</a>
         <a href="https://github.com/dwheeler7/goose" target="_blank" rel="noopener noreferrer" className={styles.button}>Git Repo</a>
       </div>
       <div className={styles.header}>PartLyfe</div>
