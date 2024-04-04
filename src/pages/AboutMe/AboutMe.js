@@ -5,7 +5,7 @@ export default function AboutMe(props){
   return (
     <div className={styles['about-me']}>
       <h1>You Can Find Me Here</h1>
-      <a href="docs/Jeremy_Casanova_cv.pdf" download>
+      <a href= "/docs/Jeremy_Casanova_cv.pdf" download>
         <img src="/img/pdficon.png" alt="Resume Icon" className={styles.icon} />
         Download Resume
       </a>
