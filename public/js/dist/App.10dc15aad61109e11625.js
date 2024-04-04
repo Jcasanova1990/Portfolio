@@ -120,7 +120,7 @@ function AboutMe(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _AboutMe_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"]['about-me']
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "You Can Find Me Here"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "docs/Jeremy_Casanova_updated_cv.pdf",
+    href: "/docs/Jeremy_Casanova_cv.pdf",
     download: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: "/img/pdficon.png",
@@ -1222,4 +1222,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.37cc444b57afb52c6559586b9b4f3303.js.map
+//# sourceMappingURL=App.53728146fede8e4c071b91e82c5bdcae.js.map
