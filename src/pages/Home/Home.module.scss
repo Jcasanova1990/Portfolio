@@ -1,58 +1,147 @@
-body{
-    background-image: url(https://www.abcomllc.com/wp-content/uploads/shutterstock_low-res.jpg);
-    background-size: fill;
-    font-family: "Russo One", sans-serif;
+/* Common styles */
+
+body {
+  background-image: url(https://www.abcomllc.com/wp-content/uploads/shutterstock_low-res.jpg);
+  background-size: cover;
+  font-family: "Russo One", sans-serif;
   font-weight: 500;
   font-style: normal;
- 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(50, 189, 40, 0.87);
+  border-radius: 0 0 20px 20px;
+  margin-top: -.1vh; /* Adjusted margin for better centering */
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-top: -6%;
+  margin-left: 1%;
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 12%;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  margin-top: 30%;
+  margin-left: 1%;
+  width: 320px;
+  height: auto;
+  margin-right: 20px;
+}
+
+/* Media queries for different devices */
+
+@media only screen and (max-width: 768px) {
+  /* For tablets and mobile */
+  .container {
+      max-width: 100%; 
+      height: 145vh;
   }
 
-.container {height: 85vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column; /* Arrange children in a column */
-    align-items: center;
-    text-align: center;
-    background-color:rgba(50, 189, 40, 0.87);
-    border-radius: 0 0 20px 20px;
-  }
-  
-  .title {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .content {
-    display: flex; /* Display content as flex container */
-    flex-direction: row; /* Arrange children in a row */
-    align-items: center; /* Vertically center children */
-    justify-content: center; /* Horizontally center children */
-  }
-  
-  .description {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
   .image {
-    margin-top: -59%;
-    margin-left: -118%; /* Add spacing between image and text */
-    width: 600px;
-    height: auto;
-    margin-right: 20px; /* Add spacing between image and text */
-    border-radius: 12%;
+      width: 200px; /* Adjusted width for smaller screens */
+      margin-top: 2%;
+      margin-left: 0;
+      margin-right: 10px;
   }
-  
+
   p {
-    color: rgb(255, 255, 255);
-    margin-top: 30%;
-    margin-left: 30%; /* Add spacing between image and text */
-    width: 500px;
-    height: auto;
-    margin-right: 20px; /* Add spacing between image and text */
+      width: 250px; /* Adjusted width for smaller screens */
+      margin-left: 0;
+      margin-top: 20%;
+      margin-right: 10px;
   }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+  /* For laptops and medium-sized desktop screens */
+  .container {
+      height: 105vh;
+
+      .image {
+        width: 300px; /* Adjusted width for smaller screens */
+        margin-top: -30%;
+        margin-left: -77%;
+    }
+  
+    p {
+        width: 450px; /* Adjusted width for smaller screens */
+        margin-left: 20%;
+        margin-top: 20%;
+        margin-right: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 2550px) {
+  /* For larger desktop screens */
+  .container {
+      height: 95vh;
+      max-width: 1200px; 
+      .image {
+        width: 600px; /* Adjusted width for smaller screens */
+        margin-top: -76.5%;
+        margin-left: -57%;
+
+    }
+  
+    p {
+        width: 550px; /* Adjusted width for smaller screens */
+        margin-left: 50%;
+        margin-bottom: 40%;
+    }
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  /* For 4K desktop screens */
+  .container {
+    height: 195vh;
+    max-width: 3800px; 
+    .image {
+      width: 900px; /* Adjusted width for smaller screens */
+      margin-top: -117.5%;
+      margin-left: -57%;
+
+  }
+
+  p {
+    font-size: 4vh;
+      width: 750px; /* Adjusted width for smaller screens */
+      margin-left: 50%;
+      margin-bottom: 80%;
+  }
+}
+}
+
+

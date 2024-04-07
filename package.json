@@ -57,6 +57,7 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.0",
     "morgan": "^1.10.0",
+    "react-responsive": "^10.0.0",
     "serve-favicon": "^2.5.0"
   }
 }

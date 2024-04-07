@@ -1,4 +1,4 @@
-.NavMobile {
+NavMobile {
     display: none;
 }
 
@@ -11,7 +11,7 @@
     .NavMobile {
         display: block;
         color: white;
-        text-align: right;
+        text-align: center;
         padding: 2rem;
         .NavBtn {
             z-index: 2000;
@@ -84,7 +84,7 @@
         border-radius: 100%;
         border: none;
         z-index: 1000;
-        background-color: rgba(100, 237, 207, .9);;
+        background-color: rgba(0, 0, 0, 0.9);;
         overflow: hidden;
         transition: width 0.3s, height 0.3s; 
     }
@@ -108,7 +108,7 @@
             text-decoration: none;
             .Link {
                 text-decoration: none;
-                color: black;
+                color: rgb(60, 231, 8);
             }
             .li {
                 text-decoration: none;
@@ -117,7 +117,7 @@
                 transition: .3s ease;
                 &:hover {
                     cursor: pointer;
-                    background-color: rgba(0, 0, 0, .3);
+                    background-color: rgba(255, 255, 255, 0.3);
                     transition: .3s ease;
                     color: white;
                 }
